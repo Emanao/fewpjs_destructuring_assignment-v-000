@@ -34,6 +34,8 @@ const [moo, neigh, baa, oink, cluck] = animalAry;
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them Bessie, Dolly, Babe, and Little.
 const noHorseAry = [animalAry[0], ...animalAry.slice(2,5)]
 const [Bessie, Dolly, Babe, Little] = noHorseAry;
+//or ...
+const [Bessie,, Dolly, Babe, Little] = animalAry;
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
 
