@@ -63,6 +63,6 @@ const[,,,,,indg,] = colors;
 //   job: 'Host of The Muppet Show',
 //   partner: 'Miss Piggy'
 // };
-const {name, color, song, job, partner}
+const {name, color, song, job, partner} = muppet;
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
