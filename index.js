@@ -35,13 +35,15 @@ const [moo, neigh, baa, oink, cluck] = animalAry;
 // const noHorseAry = [animalAry[0], ...animalAry.slice(2,5)]
 // const [Bessie, Dolly, Babe, Little] = noHorseAry;
 //or ...
-const [Bessie,, Dolly, Babe, Little] = animalAry;
+const [Bessie, , Dolly, Babe, Little] = animalAry;
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
 
 // Arrays
-const noHorseNoChickenAry = noHorseAry.slice(0,3);
-const [black_and_white, black, pink] = noHorseNoChickenAry;
+// const noHorseNoChickenAry = noHorseAry.slice(0,3);
+// const [black_and_white, black, pink] = noHorseNoChickenAry;
+// or
+const [black_and_white, ,black, pink,] = animalAry;
 
 // 4. Use destructuring to assign appropriate variables using the color names.
 const [red, orange, yellow, green, blue, indigo, violet] = colors;
