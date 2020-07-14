@@ -32,8 +32,8 @@ const animalAry = farmAnimals.split(" ");
 const [moo, neigh, baa, oink, cluck] = animalAry;
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them Bessie, Dolly, Babe, and Little.
-const noHorseAry = [animalAry[0], ...animalAry.slice(2,5)]
-const [Bessie, Dolly, Babe, Little] = noHorseAry;
+// const noHorseAry = [animalAry[0], ...animalAry.slice(2,5)]
+// const [Bessie, Dolly, Babe, Little] = noHorseAry;
 //or ...
 const [Bessie,, Dolly, Babe, Little] = animalAry;
 
